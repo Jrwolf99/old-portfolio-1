@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 body{
@@ -19,8 +24,12 @@ body{
 }
 
 .top-section{
-    background-image: url('/images/Nature.jpg');
-    
+    /* background-image:url(images/Nature.jpg); */
+   background: url(images/1.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
 }
 
 
@@ -41,11 +50,9 @@ body{
 
 /* Design for the nav bar */
 ul {
-
     list-style-type: none;
     overflow: hidden;
     padding: 0;
-    margin: 20px;
     /* background-color: #333; */
 }
 
@@ -58,7 +65,7 @@ ul {
 
 
 header {
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 
 footer {
@@ -81,6 +88,8 @@ footer {
 }
 
 .nav-bar-item {
+    margin-top: 10px;
+    margin-left: 10px;
     float: left;
 }
 
@@ -88,9 +97,7 @@ footer {
     border-radius: 30px;
     color: white;
     display: block;
-    padding: 8px;
-    padding: 24px 26px;
-    margin: auto;
+    padding: 25px 25px;
     text-decoration: none;
 }
 

@@ -1,0 +1,65 @@
+/* Nav bar styling */
+
+.nav-bar-item-contact{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+ul{
+    background-color: white;
+    height: 90px;
+}
+
+.nav-bar-item-contact a {
+
+    /* border-radius: 1px; */
+    color: black;
+    display: block;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+
+.nav-bar-item-contact:hover a:hover {
+
+    border-radius: 50px;
+    margin: 4px;
+    background-color: #0e1624;
+    color: white;
+    transition: .3s;
+}
+
+
+/* main section styling */
+
+.contact-main{
+    margin-top: 125px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.contact-title{
+    /* background-color: greenyellow; */
+    width: 100%;   
+    text-align: left; 
+    font-size: 90px;
+    color: white;
+}
+
+.vertical-divider-line{
+    height: 400px;
+    width: 2px;
+    background-color: white;
+}
+
+
+.contact-details{
+    width: 500px;
+    height: 500px;
+    /* background-color: blue; */
+}

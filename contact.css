@@ -63,3 +63,34 @@ ul{
     height: 500px;
     /* background-color: blue; */
 }
+
+
+input[type=submit] {
+    width: 100%;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    font-weight: 900;
+    color: #0e1624;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+.form-box {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.large-form-box {
+    overflow: scroll;
+    padding-top: 10;
+    padding-bottom: 100px;
+    margin: 8px 0;
+}

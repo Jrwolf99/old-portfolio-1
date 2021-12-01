@@ -123,14 +123,13 @@ footer {
 .portfolio{
     /* width: 100%; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, 500px);
+    grid-template-columns: repeat(auto-fit, 400px);
     place-content: center;
     gap: 60px;
 }
 
 .project-card-details{
-    padding: 60px;
-    margin-bottom: 30px;
+    padding: 20px;
     font-size: 18px;
     height: 100px;
     color: black;
@@ -165,3 +164,7 @@ footer {
 a {
     text-decoration: none;
 }
+
+
+
+

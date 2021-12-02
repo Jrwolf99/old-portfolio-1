@@ -35,14 +35,17 @@ ul{
 /* main section styling */
 
 .contact-main{
-    margin-top: 125px;
+    margin-top: 60px;
     /* background-color: green; */
     display: flex;
     justify-content: space-around;
 }
 
 
+#Send-Me-Text{
+    margin-top: 100px;
 
+}
 .contact-title{
     /* background-color: greenyellow; */
     width: 100%;   
@@ -52,6 +55,8 @@ ul{
 }
 
 .vertical-divider-line{
+    margin: 60px;
+
     height: 400px;
     width: 2px;
     background-color: white;
@@ -78,7 +83,13 @@ input[type=submit] {
   }
 
 
+
+::placeholder{
+    color: rgb(170, 170, 170);
+}
 .form-box {
+    /* background-color: rgba(197,197,197, 0.5); */
+    color: white;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;

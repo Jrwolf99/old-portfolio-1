@@ -142,7 +142,6 @@ footer {
 }
 .project-card-img{
     height: 210px;
-    background: URL('images/3.png') no-repeat;
     background-size: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;

@@ -129,7 +129,7 @@ footer {
 }
 
 .project-card-details{
-    padding: 20px;
+    padding: 30px;
     font-size: 18px;
     height: 100px;
     color: black;
@@ -152,7 +152,7 @@ footer {
 
 }
 .project-card-img{
-    height: 250px;
+    height: 100px;
     background: URL('images/3.png') no-repeat;
     background-size: 100%;
     border-top-left-radius: 30px;

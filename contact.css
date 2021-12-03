@@ -70,7 +70,7 @@ ul{
 }
 
 
-input[type=submit] {
+.submit {
     width: 100%;
     background-image: linear-gradient(120deg, #f6d365, #fda085);
     font-weight: 900;

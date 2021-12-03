@@ -121,24 +121,15 @@ footer {
     margin: 100px;
 }
 .portfolio{
+
     /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(auto-fit, 400px);
     place-content: center;
     gap: 60px;
-}
-
-.project-card-details{
-    padding: 30px;
-    font-size: 18px;
-    height: 100px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-decoration: none;
 
 }
+
 .project-card{
     color: red;
     border-top-left-radius: 35px;
@@ -148,19 +139,33 @@ footer {
     background-color: white;
     text-decoration: none;
 
-
-
 }
 .project-card-img{
-    height: 100px;
+    height: 210px;
     background: URL('images/3.png') no-repeat;
     background-size: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     text-decoration: none;
+}
 
+.project-card-details{
+    height: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+
+    font-size: 18px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
 
 }
+
+
 a {
     text-decoration: none;
 }

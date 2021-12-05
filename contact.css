@@ -130,3 +130,10 @@ ul{
     margin: 8px 0;
 }
 
+.profile-contact-img{
+    height: 210px;
+    width: 200px;
+    background-size: 100%;
+    border-radius: 100%;
+    text-decoration: none;
+}

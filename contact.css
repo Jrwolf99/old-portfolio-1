@@ -115,7 +115,7 @@ ul{
 @media (min-width: 1150px) {
     .contact-main{
         margin-top: 60px;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: row;   
     }

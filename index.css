@@ -54,7 +54,6 @@ body{
 ul {
     list-style-type: none;
     overflow: hidden;
-    padding: 0;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -63,9 +62,11 @@ ul {
 
 a {
   color: inherit; 
+  text-decoration: none;
+
 }
 
-.nav-bar-item a{
+.nav-bar-item{
     margin-top: 20px;
     margin-left: 20px;
     float: left;
@@ -74,17 +75,18 @@ a {
     padding: 20px 20px;
 }
 
-.nav-bar-item:hover a {
+.nav-bar-item:hover {
     color: text-color;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: #0e1624;
     transition: .5s;
 }
-.nav-bar-icon {
+.nav-bar-icon{
     font-size: 40px;
-
-
+    margin-left: auto;
+    margin-right: 30px;
 }
+
 
 .header-image{
     border-radius: 50%;
@@ -174,11 +176,6 @@ footer {
     justify-content: space-between;
     text-decoration: none;
 
-}
-
-
-a {
-    text-decoration: none;
 }
 
 

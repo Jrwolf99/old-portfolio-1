@@ -61,18 +61,18 @@ body{
 
 
 .top-section{
-    /* background-image:url(images/Nature.jpg); */
-   background: url(images/1.jpg) no-repeat center center; 
+   background: url(images/111.jpg) no-repeat center center; 
    background-attachment: fixed;
    background-size: cover;
    background-position: center;
-
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+.blur{
+    backdrop-filter: blur(100px);
 
 }
-
 
 @media (min-width: 0) {
 

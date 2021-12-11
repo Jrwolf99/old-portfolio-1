@@ -62,9 +62,11 @@ body{
 
 .top-section{
     /* background-image:url(images/Nature.jpg); */
-   background: url(images/1.png) no-repeat center center; 
+   background: url(images/1.jpg) no-repeat center center; 
    background-attachment: fixed;
    background-size: cover;
+   background-position: center;
+
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,6 +88,8 @@ body{
         align-items: center;
         text-align: center;
         flex-direction: column;
+        padding-top: 15vh;
+        padding-bottom: 30vh;
         /* background-color: red; */
     }
 
@@ -93,7 +97,7 @@ body{
 
 
 }
-@media (min-width: 600px) {
+@media (min-width: 850px) {
     .main {
 
         margin-left: 15%;
@@ -106,6 +110,7 @@ body{
         align-items: center;
         text-align: left;
         flex-direction: row;
+
         /* background-color: red; */
     }
 }
@@ -165,11 +170,7 @@ footer {
 
 
 
-.fade-space {
-    height: 30vh;
-    /* background-image: linear-gradient(to bottom, transparent, #0e1624); */
-    
-}
+
 
 
 

@@ -19,23 +19,15 @@ body{
     flex-direction: column;
 }
 
-.intro {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    flex-direction: row;
-    /* background-color: red; */
-}
 
 
 .profile-img{
-    background: URL('images/me.png');
-    height: 350px;
-    width: 350px;
-    background-size: 140%;
-    background-color: red;
+    background: URL('images/me.jpg');
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     box-shadow: 4px 4px 10px black;
 
@@ -48,19 +40,19 @@ body{
 
 }
 .website-introtext {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 100;
     
 }
 .website-title {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 800;
 
 }
 .website-subtitle {
     font-family: monospace;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     text-align: center;
     background-color: #0e1624;
@@ -86,12 +78,35 @@ body{
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .intro {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+
+
+
 }
 @media (min-width: 600px) {
     .main {
 
         margin-left: 15%;
         margin-right: 15%;
+    }
+    .intro {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: row;
+        /* background-color: red; */
     }
 }
 

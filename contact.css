@@ -102,6 +102,7 @@ ul{
     }  
       .submit {
         width: 90%;
+        
         background-image: linear-gradient(120deg, #f6d365, #fda085);
         font-weight: 900;
         color: #0e1624;

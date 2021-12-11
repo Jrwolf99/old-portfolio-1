@@ -212,7 +212,7 @@ footer {
 }
 
 .project-card-details{
-    height: 80px;
+    height: cover;
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 60px;

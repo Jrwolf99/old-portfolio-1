@@ -9,21 +9,69 @@
 }
 
 body{
-    background-color: #0e1624;
     color: var(--text-color);
     color: #beb9b9;
     font-family: 'Work Sans', sans-serif;
-
+    background-color: white;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
 
+.intro {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+
+.profile-img{
+    background: URL('images/me.png');
+    height: 350px;
+    width: 350px;
+    background-size: 140%;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px black;
+
+}
+
+.titles {
+    color: white;
+    padding-left: 20px;
+    text-shadow: 3px 3px 5px#1c2d49;
+
+}
+.website-introtext {
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.website-title {
+    font-size: 60px;
+    font-weight: 800;
+
+}
+.website-subtitle {
+    font-family: monospace;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #0e1624;
+}
+
+
+
 .top-section{
     /* background-image:url(images/Nature.jpg); */
    background: url(images/1.png) no-repeat center center; 
-    
+   background-attachment: fixed;
    background-size: cover;
    -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -88,17 +136,9 @@ a {
 }
 
 
-.header-image{
-    border-radius: 50%;
-    display: flex;
-    justify-content: right;
-}
-
 footer {
-
-    margin-top: 100px;
-    margin-bottom: 20px;
-
+    background-color: #0e1624;
+    padding: 50px;
 }
 
 .gradient-text{
@@ -108,35 +148,26 @@ footer {
     -webkit-background-clip: text;
 }
 
-.website-title {
-    margin-top: 30vh;
-    font-size: 70px;
-    color: white;
-}
-
-.website-subtitle {
-    color: white;
-    font-size: 20px;
-}
-
-
-
 
 
 .fade-space {
-    height: 50vh;
-    background-image: linear-gradient(to bottom, transparent, #0e1624);
+    height: 30vh;
+    /* background-image: linear-gradient(to bottom, transparent, #0e1624); */
+    
 }
 
 
 
 .portfolio-title {
-    font-size: 30px;
-    margin: 100px;
+    color: #0e1624;
+    text-shadow: 1px 1px 2px #1254be;
+    background-color: white;
+    font-size: 40px;
+    padding-top: 100px;
 }
-.portfolio{
 
-    /* width: 100%; */
+.portfolio{
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 400px);
     place-content: center;
@@ -152,6 +183,8 @@ footer {
     border-bottom-right-radius: 30px;
     background-color: white;
     text-decoration: none;
+    box-shadow: 3px 3px 10px grey;
+
 
 }
 .project-card-img{

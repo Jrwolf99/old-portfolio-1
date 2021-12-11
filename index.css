@@ -104,9 +104,6 @@ body{
     }
     .intro {
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
         text-align: left;
         flex-direction: row;
 
@@ -167,31 +164,25 @@ footer {
     -webkit-background-clip: text;
 }
 
-
-
-
-
-
-
 .portfolio-title {
     color: #0e1624;
     text-shadow: 1px 1px 2px gray;
     background-color: ebebeb;
     font-size: 40px;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .portfolio{
+ 
+    
     padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 400px);
     place-content: center;
-    gap: 60px;
 
 }
 
 .project-card{
-    color: red;
+
+    margin:10px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 30px;
@@ -227,5 +218,48 @@ footer {
 }
 
 
+.collapsible {
+  box-shadow: 1px 1px 4px gray;
+  background-color: white;
+  border-color: lightgray;
+  padding: 30px;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
 
+.active .collapsible:hover {
+    background-color: #1c2d49;
+}
+
+
+@media (min-width: 0px) {
+    .content {
+  grid-template-columns: repeat(auto-fit, 300px);
+    }
+    
+
+@media (min-width:800px) {
+    .content {
+    grid-template-columns: repeat(auto-fit, 400px);
+
+    }
+}
+.content {
+    margin: 30px;
+    display: grid;
+    gap: 60px;
+
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+
+
+  }
 

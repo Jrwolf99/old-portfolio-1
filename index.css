@@ -239,7 +239,19 @@ footer {
     position: absolute;
     right: 100px;
 
-    transition: transform 4s ease-in-out;
+ 
+}
+
+.rotate{
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.rotate.toggle {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform: rotate(180deg);
 }
 
 

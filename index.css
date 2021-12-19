@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
+    font-size:100%;
     vertical-align: baseline;
     background: transparent;
 }
@@ -230,11 +230,18 @@ footer {
   text-align: left;
   font-size: 20px;
   font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
 }
 
-.active .collapsible:hover {
-    background-color: #1c2d49;
+.fas .fa-chevron-down{
+    position: absolute;
+    right: 100px;
+
+    transition: transform 4s ease-in-out;
 }
+
 
 
 @media (min-width: 0px) {
@@ -242,6 +249,7 @@ footer {
   grid-template-columns: repeat(auto-fit, 300px);
     }
     
+}
 
 @media (min-width:800px) {
     .content {
@@ -254,12 +262,12 @@ footer {
     display: grid;
     gap: 60px;
 
-
-    max-height: 0;
+    /* set original max height position */
+    /* Then transition if this max-height value changes. */
+    max-height: 0; 
     overflow: hidden;
     transition: max-height 0.2s ease;
   }
 
 
-  }
 

@@ -8,6 +8,10 @@
     background: transparent;
 }
 
+html {
+} 
+
+
 body{
     color: white;
     font-family: 'Work Sans', sans-serif;
@@ -20,9 +24,6 @@ body{
     flex-direction: column;
 }
 
-
-
-
 .profile-img{
     background: URL('images/me.jpg');
     height: 300px;
@@ -33,7 +34,6 @@ body{
     box-shadow: 4px 4px 10px black;
 
 }
-
 .titles {
     color: white;
     padding-left: 20px;
@@ -98,7 +98,6 @@ body{
 }
 @media (min-width: 850px) {
     .main {
-
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -272,6 +271,7 @@ footer {
 .content {
     margin: 30px;
     display: grid;
+    justify-content: center;
     gap: 60px;
 
     /* set original max height position */

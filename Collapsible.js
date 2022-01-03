@@ -14,9 +14,6 @@ var Collapsible = document.getElementsByClassName("collapsible");
 //make toggle value for the dropdown icon.
 var toggle = false;
 for (var i = 0; i < Collapsible.length; i++) {
-
-
-
     //listen for a click on the div, and on click,
     // change maxHeight to fit the content div that
     //is the .collapsible div's neighbor. 
